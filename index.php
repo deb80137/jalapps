@@ -44,7 +44,7 @@ box-shadow: -5px 2px 10px 6px rgba(0,0,0,0.75);
 						<div class="col-md-4 col-sm-4 col-xs-12">
 							<form id="log" action="logincheck.php" method="post">
 								<h1>Login Form</h1>
-								<img class="img img-responsive img-circle" src="https://jalapps.herokuapp.com/login.jpg">
+								<img class="img img-responsive rounded-circle" src="https://jalapps.herokuapp.com/login.jpg">
 								<div class="form-group">
 									<label>Username</label>
 									<input name="myusername" id="myusername" type="text" class="form-control" placeholder="Username">
