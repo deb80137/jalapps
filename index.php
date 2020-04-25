@@ -4,8 +4,8 @@
 	<title>login</title>
 	<meta name="viewport" content="width=device-width, initial-state=1"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<script src="js/jquery-3.3.1.min.js"> </script>
-	<script src="js/bootstrap4.0.0.min.js"> </script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 	<style type="text/css">
 	.bg{background: url('img/back.jpg') ;
