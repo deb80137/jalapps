@@ -1,6 +1,7 @@
 ﻿<?php
 //error_reporting(0);
 session_start();
+include 'ServerDetails.php';
 
 $url=parse_url(getenv("us-cdbr-iron-east-01.cleardb.net"));
 	$host = $url["us-cdbr-iron-east-01.cleardb.net"];
