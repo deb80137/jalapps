@@ -4,7 +4,7 @@ session_start();
 
 include 'ServerDetails.php';
 include 'dbconfig.php';
-$conn=mysqli_connect("$host", "$username", "$password")or die("cannot connect");
+$conn=mysql_connect("$host", "$username", "$password")or die("cannot connect");
 $myusername=$_POST['myusername']; 
 $mypassword=sha1($_POST['mypassword']);
 
