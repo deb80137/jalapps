@@ -53,6 +53,9 @@ box-shadow: -5px 2px 10px 6px rgba(0,0,0,0.75);
 								<div class="form-group">
 									<label></label><input type="password" name="mypassword" id="mypassword" class="form-control" placeholder="Password">						
 								</div>
+								<div class="form-group">
+									<label></label>						
+								</div>
 								<button type="submit" class="btn btn-success btn-block">Login</button>
 							</form>
 
