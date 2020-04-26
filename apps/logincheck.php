@@ -2,8 +2,11 @@
 //error_reporting(0);
 session_start();
 
-include 'ServerDetails.php';
-include 'dbconfig.php';
+$url=parse_url(getenv("us-cdbr-iron-east-01.cleardb.net"));
+	$host = $url["us-cdbr-iron-east-01.cleardb.net"];
+	$username=$url["b7fdf2e2fbe34d"]; // Mysql username 
+	$password=$url["4e878331"]; // Mysql password 
+	$db_name=substr($url["heroku_ccdd37a9508be9a"],1); // Database name 
 $conn=mysql_connect("$host", "$username", "$password")or die("cannot connect");
 $myusername=$_POST['myusername']; 
 $mypassword=sha1($_POST['mypassword']);
