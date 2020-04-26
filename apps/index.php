@@ -8,7 +8,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"></script>
 
 	<style type="text/css">
-	.bg{background: url('https://jalapps.herokuapp.com/img/back.jpg') ;
+	.bg{background: url('https://jalapps.herokuapp.com/apps/img/back.jpg') ;
 	width:100%;
 	height:100%;
 	}
@@ -44,7 +44,7 @@ box-shadow: -5px 2px 10px 6px rgba(0,0,0,0.75);
 						<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 							<form id="log" action="logincheck.php" method="post">
 								<h1>Login Form</h1>
-								<img class="rounded-circle text-center" src="https://jalapps.herokuapp.com/img/login.jpg">
+								<img class="rounded-circle text-center" src="https://jalapps.herokuapp.com/apps/img/login.jpg">
 								<div class="form-group">
 									<label></label>
 									<input name="myusername" id="myusername" type="text" class="form-control" placeholder="Username">
